@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "smartcontract-lottery"
+version = "0.1.0"
+description = ""
+authors = ["rich <rkba2@outlook.com>"]
+readme = "README.md"
+packages = [{include = "smartcontract_lottery"}]
+
+[tool.poetry.dependencies]
+python = "^3.10, <3.11"
+
+[tool.poetry.group.dev.dependencies]
+eth-brownie = "^1.19.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
